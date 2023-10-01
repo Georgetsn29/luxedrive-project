@@ -27,6 +27,7 @@ header {
     position: absolute;
     top: -4px;
     left: 128px;
+    cursor: pointer;
 }
 
  .xazi1 {
@@ -72,18 +73,19 @@ header {
 }
 
 .logreg {
-    width: 162px;
-    height: 40px;
+    /* width: 162px;
+    height: 40px; */
     border: 2px solid #ffffff;
     border-radius: 48px;
     position: absolute;
-    padding-top: 5px;
+    padding-block: 5px;
     top: 32px;
     right: 112px;
 }
 
 .logreg a {
-    padding-left: 20px;
+    padding-inline: 20px;
+    padding-block: 10px;
     font-size: 16px;
     line-height: 24px;
     font-weight: bold;
@@ -239,16 +241,22 @@ body {
 
 .find {
     position: absolute;
-    width: 177px;
-    height: 56px;
     border-radius: 64px;
     background-color: #000000;
     bottom: 0;
     right: 0;
     padding: 18px 0;
+    transition: 0.5s;
+}
+
+.find:hover {
+    background-color: #373737;
+    transition: 0.5s;
 }
 
 .find a {
+    padding-inline: 20px;
+    padding-block: 20px;
     padding-left: 24px;
     font-family: sans-serif;
     color: #ffffff;
@@ -268,13 +276,14 @@ body {
     font-family: sans-serif;
 }
 
-.viewall {
+.viewall a {
     position: absolute;
     top: 1005px;
     right: 140px;
     font-size: 24px;
     font-weight: 600;
     font-family: sans-serif;
+    color: #000000;
 }
 
 
@@ -296,6 +305,13 @@ body {
     height: 120px;
     background-color: rgba(15, 15, 15, 0.1);
     text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.grid-item-brend:hover {
+    background-color: rgba(15, 15, 15, 0.2);
+    transition: 0.5s;
 }
 
 .grid-item-brend p {
@@ -318,18 +334,29 @@ body {
     font-family: sans-serif;
 }
 
-.viewall2 {
+.viewall2 a {
     position: absolute;
     top: 1380px;
     right: 140px;
     font-size: 24px;
     font-weight: 600;
     font-family: sans-serif;
+    color: #000000;
 }
 
 
-.suv {
+.grid-conteiner-model {
     position: absolute;
+    display: grid;
+    gap: 20px;
+    top: 1430px;
+    left: 165px;
+    width: 1220px;
+    grid-template-columns: 186px 186px 186px 186px 186px 186px;
+    justify-content: space-between;
+}
+
+.grid-item-model {
     width: 186px;
     height: 120px;
     background-color: rgba(15, 15, 15, 0.1);
@@ -338,229 +365,13 @@ body {
     text-align: center;
 }
 
-.suv p {
+.grid-item-model p {
     font-family: sans-serif;
     margin-top: 12px;
 }
 
-.suv img {
+.grid-item-model img {
     margin-top: 24px;
-}
-
-.crossover {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1430px;
-    left: 370px;
-    text-align: center;
-}
-
-.crossover p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.crossover img {
-    margin-top: 24px;
-}
-
-.wagon {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1430px;
-    left: 572.5px;
-    text-align: center;
-}
-
-.wagon p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.wagon img {
-    margin-top: 24px;
-    filter: grayscale();
-}
-
-.mbp {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1430px;
-    left: 782.5px;
-    text-align: center;
-}
-
-.mbp p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.mbp img {
-    margin-top: 24px;
-}
-
-.sportc {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1430px;
-    left: 990px;
-    text-align: center;
-}
-
-.sportc p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.sportc img {
-    margin-top: 24px;
-}
-
-.compact {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1430px;
-    left: 1200px;
-    text-align: center;
-}
-
-.compact p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.compact img {
-    margin-top: 24px;
-}
-
-.coupe {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1571px;
-    left: 165px;
-    text-align: center;
-}
-
-.coupe p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.coupe img {
-    margin-top: 24px;
-    filter: grayscale();
-}
-
-.pickup {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1571px;
-    left: 370px;
-    text-align: center;
-}
-
-.pickup p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.pickup img {
-    margin-top: 24px;
-    filter: grayscale();
-}
-
-.sedan {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1571px;
-    left: 572.5px;
-    text-align: center;
-}
-
-.sedan p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.sedan img {
-    margin-top: 24px;
-    filter: grayscale();
-}
-
-.limousine {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1571px;
-    left: 782.5px;
-    text-align: center;
-}
-
-.limousine p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.limousine img {
-    margin-top: 24px;
-    filter: grayscale();
-}
-
-.convertible {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1571px;
-    left: 990px;
-    text-align: center;
-}
-
-.convertible p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.convertible img {
-    margin-top: 24px;
-    filter: grayscale();
-}
-
-.crossover2 {
-    position: absolute;
-    width: 186px;
-    height: 120px;
-    background-color: rgba(15, 15, 15, 0.1);
-    top: 1571px;
-    left: 1200px;
-    text-align: center;
-}
-
-.crossover2 p {
-    font-family: sans-serif;
-    margin-top: 12px;
-}
-
-.crossover2 img {
-    margin-top: 24px;
-    filter: grayscale();
 }
 
 
@@ -689,16 +500,16 @@ body {
 
 
 
-.a4 {
+.a4{
     position: absolute;
     background-color: #ffffff;
     width: 384px;
     height: 538px;
     border-radius: 18px;
-    top: 406px;
-    left: 165px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: 1s;
+    top: 406px;
+    left: 165px;
 }
 
 .a4:hover {
@@ -1091,6 +902,12 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     border-radius: 64px;
+    transition: 0.5s;
+}
+
+.seeallcars:hover {
+    background-color: #373737;
+    transition: 0.5s;
 }
 
 .arrows {
