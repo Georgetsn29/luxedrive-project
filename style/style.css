@@ -1,0 +1,1655 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+.head {
+    width: 100%;
+    height: 833px;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+ .bar {
+    height: 20px;
+    width: 40px;
+    margin: 50px auto;
+    position: absolute;
+    top: -4px;
+    left: 128px;
+}
+
+ .xazi1 {
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    padding: 3px;
+    top: 0;
+}
+
+ .xazi2 {
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    padding: 3px;
+}
+
+.img {
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    height: 1024px;
+}
+
+.logo {
+    width: 178.17px;
+    height: 16.49px;
+    position: absolute;
+    left: 675px;
+    top: 44px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logreg {
+    width: 162px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 48px;
+    position: absolute;
+    padding-top: 5px;
+    top: 32px;
+    right: 112px;
+}
+
+.logreg a {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.headtext {
+    width: 982px;
+    height: 154px;
+    position: absolute;
+    top: 149px;
+    right: 250px;
+}
+
+.headtext h1 {
+    font-size: 64px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+body {
+    position: relative;
+}
+
+.form {
+    width: 1216px;
+    height: 145px;
+    background-color: #ffffffde;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 760px;
+    right: 140px;
+    border: none;
+    border-radius: 16px;
+    padding: 30px 24px;
+    transition: 1s;
+}
+
+.form:hover {
+    box-shadow: 0px 0px 100px 1px;
+    transition: 0.4s;
+}
+
+.formin {
+    position: absolute;
+    width: 1168px;
+    height: 85px;
+}
+
+.formin form {
+    width: 975px;
+    height: 85px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.loc label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+}
+
+.loc input{
+    position: absolute;
+    width: 283.5px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.loc input::placeholder {
+    font-family: sans-serif;
+    color: #000000;
+    padding-inline: 20px;
+    font-size: 15px;
+}
+
+.date input{
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    bottom: 0;
+    left: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-inline: 20px;
+}
+
+.date label {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    font-family: sans-serif;
+}
+
+.locoff input{
+    position: absolute;
+    width: 283.5px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    bottom: 0;
+    left: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.locoff input::placeholder {
+    font-family: sans-serif;
+    color: #000000;
+    padding-inline: 20px;
+    font-size: 15px;
+}
+
+.locoff label {
+    position: absolute;
+    left: 500px;
+    top: 0;
+    font-family: sans-serif;
+}
+
+.dateoff input{
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    bottom: 0;
+    left: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-inline: 20px;
+}
+
+.dateoff label {
+    position: absolute;
+    left: 800px;
+    top: 0;
+    font-family: sans-serif;
+}
+
+.find {
+    position: absolute;
+    width: 177px;
+    height: 56px;
+    border-radius: 64px;
+    background-color: #000000;
+    bottom: 0;
+    right: 0;
+    padding: 18px 0;
+}
+
+.find a {
+    padding-left: 24px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.fa-arrow-right {
+    margin-left: 18px;
+}
+
+
+.rentby {
+    position: absolute;
+    top: 1005px;
+    left: 165px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.viewall {
+    position: absolute;
+    top: 1005px;
+    right: 140px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+
+
+.grid-conteiner-brend {
+    position: absolute;
+    display: grid;
+    gap: 20px;
+    top: 1060px;
+    left: 165px;
+    width: 1220px;
+    grid-template-columns: 186px 186px 186px 186px 186px 186px;
+    justify-content: space-between;
+}
+
+.grid-item-brend {
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    text-align: center;
+}
+
+.grid-item-brend p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.grid-item-brend img {
+    margin-top: 24px;
+}
+
+
+
+.rentbyb {
+    position: absolute;
+    top: 1380px;
+    left: 165px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.viewall2 {
+    position: absolute;
+    top: 1380px;
+    right: 140px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+.suv {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1430px;
+    left: 165px;
+    text-align: center;
+}
+
+.suv p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.suv img {
+    margin-top: 24px;
+}
+
+.crossover {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1430px;
+    left: 370px;
+    text-align: center;
+}
+
+.crossover p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.crossover img {
+    margin-top: 24px;
+}
+
+.wagon {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1430px;
+    left: 572.5px;
+    text-align: center;
+}
+
+.wagon p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.wagon img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+.mbp {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1430px;
+    left: 782.5px;
+    text-align: center;
+}
+
+.mbp p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.mbp img {
+    margin-top: 24px;
+}
+
+.sportc {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1430px;
+    left: 990px;
+    text-align: center;
+}
+
+.sportc p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.sportc img {
+    margin-top: 24px;
+}
+
+.compact {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1430px;
+    left: 1200px;
+    text-align: center;
+}
+
+.compact p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.compact img {
+    margin-top: 24px;
+}
+
+.coupe {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1571px;
+    left: 165px;
+    text-align: center;
+}
+
+.coupe p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.coupe img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+.pickup {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1571px;
+    left: 370px;
+    text-align: center;
+}
+
+.pickup p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.pickup img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+.sedan {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1571px;
+    left: 572.5px;
+    text-align: center;
+}
+
+.sedan p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.sedan img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+.limousine {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1571px;
+    left: 782.5px;
+    text-align: center;
+}
+
+.limousine p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.limousine img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+.convertible {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1571px;
+    left: 990px;
+    text-align: center;
+}
+
+.convertible p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.convertible img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+.crossover2 {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    background-color: rgba(15, 15, 15, 0.1);
+    top: 1571px;
+    left: 1200px;
+    text-align: center;
+}
+
+.crossover2 p {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.crossover2 img {
+    margin-top: 24px;
+    filter: grayscale();
+}
+
+
+
+
+
+.cars {
+    position: absolute;
+    width: 100%;
+    height: 1734px;
+    background-color: #f5f5f5;
+    top: 1811px;
+}
+
+.shesavali {
+    position: absolute;
+    width: 720px;
+    height: 144px;
+    top: 100px;
+    left: 420px;
+    text-align: center;
+}
+
+.shesavali h2 {
+    position: absolute;
+    color: #000000;
+    font-size: 44px;
+    font-family: sans-serif;
+}
+
+.shesavali p {
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    top: 86px;
+}
+
+
+
+.carclass {
+    position: absolute;
+    display: flex;
+    top: 292px;
+    left: 400px;
+    width: 764px;
+    justify-content: space-between;
+}
+
+.pop {
+    width: 140px;
+    padding: 12px 26.5px;
+    background-color: #000000;
+    border-radius: 58px;
+}
+
+.pop a {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.lux {
+    width: 140px;
+    padding: 12px 26.5px;
+    background-color: #ffffff;
+    border-radius: 58px;
+    transition: 1s;
+}
+
+.lux a {
+    font-family: sans-serif;
+    color: #000000;
+    transition: 0.8s;
+}
+
+.vint {
+    width: 140px;
+    padding: 12px 26.5px;
+    background-color: #ffffff;
+    border-radius: 58px;
+    transition: 1s;
+}
+
+.vint a {
+    font-family: sans-serif;
+    color: #000000;
+    transition: 0.8s;
+}
+
+.fam {
+    width: 140px;
+    padding: 12px 28px;
+    background-color: #ffff;
+    border-radius: 58px;
+    transition: 1s;
+}
+
+.fam a {
+    font-family: sans-serif;
+    color: #000000;
+    transition: 0.8s;
+}
+
+.offroad {
+    width: 150px;
+    padding: 12px 27.5px;
+    background-color: #ffffff;
+    border-radius: 58px;
+    transition: 1s;
+}
+
+.offroad a {
+    font-family: sans-serif;
+    color: #000000;
+    transition: 0.8s;
+}
+
+.carclass p:hover a{
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.carclass p:hover {
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+
+
+.a4 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 384px;
+    height: 538px;
+    border-radius: 18px;
+    top: 406px;
+    left: 165px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.a4:hover {
+    box-shadow: 0 0 30px 2px;
+    transition: 0.4s;
+}
+
+.a4 img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.model  {
+    position: absolute;
+    top: 292px;
+    left: 24px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.cost {
+    position: absolute;
+    font-family: sans-serif;
+    top: 334px;
+    left: 24px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.costday {
+    position: absolute;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    top: 352px;
+    font-weight: 600;
+    left: 115px;
+}
+
+.config {
+    position: absolute;
+    width: 336px;
+    height: 63px;
+    border-radius: 16px;
+    background-color: #f6f6f6;
+    top: 388px;
+    left: 24px;
+}
+
+.inconfig {
+    position: relative;
+    width: 304px;
+    height: 47px;
+    top: 8px;
+    left: 16px;
+    text-align: center;
+}
+
+.odomet {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 0;
+}
+
+.odomet p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 12px;
+}
+
+.odomet img {
+    position: absolute;
+    top: 0;
+    left: 19px;
+}
+
+.gearbox {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 80px;
+}
+
+.gearbox p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 14px;
+}
+
+.gearbox img {
+    position: absolute;
+    top: 0;
+    left: 19px;
+}
+
+.person {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 165px;
+}
+
+.person p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 4px;
+}
+
+.person img {
+    position: absolute;
+    top: 0;
+    left: 19px;
+}
+
+.gas {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    right: 0;
+}
+
+.gas p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 16px;
+}
+
+.gas img {
+    position: absolute;
+    top: 0;
+    left: 19px;
+}
+
+.rentnow {
+    position: absolute;
+    top: 471px;
+    left: 24px;
+    width: 336;
+    height: 43px;
+    border-radius: 32px;
+    border: 2px solid #000000;
+    text-align: center;
+    padding-top: 9px;
+    transition: 0.8s;
+}
+
+.rentnow:hover {
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+.rentnow a {
+    padding: 13px 130px;
+    font-family: sans-serif;
+    color: #000000;
+    font-weight: 600;
+    transition: 0.8s;
+}
+
+.rentnow:hover a {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+.escape {
+    position: absolute;
+    background-color: #ffffff;
+    width: 384px;
+    height: 538px;
+    border-radius: 18px;
+    top: 406px;
+    left: 594px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.escape:hover {
+    box-shadow: 0 0 30px 2px;
+    transition: 0.4s;
+}
+
+.escape img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.porsche {
+    position: absolute;
+    background-color: #ffffff;
+    width: 384px;
+    height: 538px;
+    border-radius: 18px;
+    top: 406px;
+    left: 1020px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.porsche:hover {
+    box-shadow: 0 0 30px 2px;
+    transition: 0.4s;
+}
+
+.porsche img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.m4comp {
+    position: absolute;
+    background-color: #ffffff;
+    width: 384px;
+    height: 538px;
+    border-radius: 18px;
+    top: 983px;
+    left: 165px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.m4comp:hover {
+    box-shadow: 0 0 30px 2px;
+    transition: 0.4s;
+}
+
+.m4comp img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.m4 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 384px;
+    height: 538px;
+    border-radius: 18px;
+    top: 983px;
+    left: 594px;
+    transition: 1s;
+}
+
+.m4:hover {
+    box-shadow: 0 0 30px 2px;
+    transition: 0.4s;
+}
+
+.m4 img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.mclaren {
+    position: absolute;
+    background-color: #ffffff;
+    width: 384px;
+    height: 538px;
+    border-radius: 18px;
+    top: 983px;
+    left: 1020px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.mclaren:hover {
+    box-shadow: 0 0 30px 2px;
+    transition: 0.4s;
+}
+
+.configmc {
+    position: absolute;
+    width: 336px;
+    height: 63px;
+    border-radius: 16px;
+    background-color: #f6f6f6;
+    top: 388px;
+    left: 24px;
+}
+
+.inconfigmc {
+    position: relative;
+    width: 304px;
+    height: 47px;
+    top: 8px;
+    left: 16px;
+    text-align: center;
+}
+
+.odometmc {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 0;
+}
+
+.odometmc p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 12px;
+}
+
+.odometmc img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+
+.gearboxmc {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 80px;
+}
+
+.gearboxmc p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 14px;
+}
+
+.gearboxmc img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.personmc {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 165px;
+}
+
+.personmc p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 4px;
+}
+
+.personmc img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.gasmc {
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    right: 0;
+}
+
+.gasmc p {
+    position: absolute;
+    font-size: 14px;
+    top: 26px;
+    left: 16px;
+}
+
+.gasmc img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.mclaren img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.seeallcars {
+    position: absolute;
+    top: 1600px;
+    left: 695px;
+    background-color: #000000;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 64px;
+}
+
+.arrows {
+    position: absolute;
+}
+
+.seeallcars a {
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+
+
+
+.howitworks {
+    position: absolute;
+    width: 1216px;
+    height: 838px;
+    left: 170px;
+    top: 3665px;
+}
+
+.texthow {
+    position: absolute;
+    width: 720px;
+    height: 144px;
+    text-align: center;
+    left: 270px;
+}
+
+.texthow h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
+.texthow p {
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.howimg {
+    position: absolute;
+    width: 750px;
+    height: 638px;
+    background-color: #f5f5f5;
+    top: 250px;
+    right: 0px;
+    border-radius: 24px;
+}
+
+.howimg img {
+    position: absolute;
+    top: 127px;
+    right: 44px;
+}
+
+.browse {
+    position: absolute;
+    width: 592px;
+    height: 170px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    top: 300px;
+}
+
+.browse h2 {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 24px;
+    top: 32px;
+    left: 106px;
+}
+
+.browse p {
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    top: 80px;
+    left: 106px;
+}
+
+.browsesel {
+    width: 54px;
+    height: 106px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+}
+
+.browsesel img {
+    position: absolute;
+    top: 41px;
+    left: 15px;
+}
+
+.book {
+    position: absolute;
+    width: 592px;
+    height: 170px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    top: 486px;
+}
+
+.book h2 {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 24px;
+    top: 32px;
+    left: 106px;
+}
+
+.book p {
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    top: 80px;
+    left: 106px;
+}
+
+.bookconf {
+    width: 54px;
+    height: 106px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+}
+
+.bookconf img {
+    position: absolute;
+    top: 41px;
+    left: 15px;
+}
+
+.enjoy {
+    position: absolute;
+    width: 592px;
+    height: 170px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    top: 672px;
+}
+
+.enjoy h2 {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 24px;
+    top: 32px;
+    left: 106px;
+}
+
+.enjoy p {
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    top: 80px;
+    left: 106px;
+}
+
+.enjoyride {
+    width: 54px;
+    height: 106px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+}
+
+.enjoyride img {
+    position: absolute;
+    top: 41px;
+    left: 15px;
+}
+
+
+.service {
+    position: absolute;
+    background-color: #000000;
+    height: 586px;
+    width: 100%;
+    top: 4660px;
+}
+
+.servicetext {
+    position: absolute;
+    width: 720px;
+    height: 144px;
+    text-align: center;
+    left: 420px;
+    top: 100px;
+}
+
+.servicetext h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.servicetext p {
+    font-size: 18px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+}
+
+
+.container {
+    width: 1280px;
+    height: 178px;
+    position: absolute;
+    left: 80px;
+    top: 308px;
+}
+
+.quality {
+    position: absolute;
+    left: 0;
+    width: 384px;
+    height: 178px;
+}
+
+.starimg { 
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    border-radius: 28px;
+    background-color: beige;
+    border: 8px solid rgba(255, 255, 255, 0.9);
+    left: 168px;
+}
+
+.starimg img {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+
+.startext {
+    position: absolute;
+    width: 384px;
+    height: 110px;
+    bottom: 0;
+    text-align: center;
+}
+
+.startext h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.startext p {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+}
+
+.price {
+    position: absolute;
+    left: 450px;
+    top: 0;
+    width: 384px;
+    height: 178px;
+}
+
+.priceimg { 
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    border-radius: 28px;
+    background-color: beige;
+    border: 8px solid rgba(255, 255, 255, 0.9);
+    left: 168px;
+}
+
+.priceimg img {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+
+.pricetext {
+    position: absolute;
+    width: 384px;
+    height: 110px;
+    bottom: 0;
+    text-align: center;
+}
+
+.pricetext h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.pricetext p {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+}
+
+
+.booking {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 384px;
+    height: 178px;
+}
+
+.bookingimg { 
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    border-radius: 28px;
+    background-color: beige;
+    border: 8px solid rgba(255, 255, 255, 0.9);
+    left: 168px;
+}
+
+.bookingimg img {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+
+.bookingtext {
+    position: absolute;
+    width: 384px;
+    height: 110px;
+    bottom: 0;
+    text-align: center;
+}
+
+.bookingtext h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.bookingtext p {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+}
+
+.costumer {
+    position: absolute;
+    top: 5309px;
+    left: 120px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.costumtext {
+    position: absolute;
+    top: 5433px;
+    left: 120px;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.costumname {
+    position: absolute;
+    top: 5737px;
+    left: 120px;
+    width: 279px;
+    height: 80px;
+}
+
+.cosimg {
+    width: 80px;
+    height: 80px;
+}
+
+.costumname h2 {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.costumname p  {
+    position: absolute;
+    right: 68px;
+    bottom: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #737373;
+}
+
+.download {
+    position: relative;
+    width: 100%;
+    height: 292px;
+    top: 5937px;
+    background-color: #0f0f0f;
+}
+
+.dowtext {
+    position: absolute;
+    width: 488px;
+    height: 119px;
+    position: absolute;
+    left: 216px;
+    top: 85px;
+}
+
+.dowtext h2 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 36px;
+    top: 10px;
+}
+
+.dowtext p {
+    position: absolute;
+    color: #ffffff;
+    bottom: 10px;
+}
+
+.dowbutton {
+    position: absolute;
+    width: 418px;
+    height: 61px;
+    top: 125px;
+    left: 820px;
+}
+
+.apple {
+    position: absolute;
+    left: 0;
+}
+
+.android {
+    position: absolute;
+    right: 0;
+}
+
+
+
+footer {
+    position: absolute;
+    top: 6229px;
+    width: 100%;
+    height: 113px;
+    background-color: #0f0f0f;
+}
+
+.hr {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #69696916;
+}
+
+footer img {
+    position: absolute;
+    left: 165px;
+    top: 43px;
+}
+
+.footnav {
+    position: absolute;
+    width: 295px;
+    top: 44px;
+    left: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footnav a {
+    color: #d9dbe1;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.social {
+    position: absolute;
+    top: 45px;
+    right: 165px;
+    width: 144px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inst {
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    top: 0;
+}
+
+.inst img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.soc {
+    position: absolute;
+    left: 53px;
+    width: 24px;
+    height: 24px;
+    top: 0;
+}
+
+.soc img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.twitter {
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    top: 0;
+}
+
+.twitter img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 110px;
+    top: 0px;
+}
+
+.youtube img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 0;
+    top: 0px;
+}
