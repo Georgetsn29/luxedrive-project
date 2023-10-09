@@ -425,6 +425,12 @@ body {
     padding: 12px 26.5px;
     background-color: #000000;
     border-radius: 58px;
+    transition: 0.5s;
+}
+
+.carclass .pop:hover {
+    background-color: #373737;
+    transition: 0.5s;
 }
 
 .pop a {
@@ -1469,4 +1475,984 @@ footer img {
     height: 24px;
     right: 0;
     top: 0px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1918px) {
+    
+    
+     .bar {
+        height: 25px;
+        width: 50px;
+        margin: 62.5px auto;
+    }
+    
+     .xazi1 {
+        width: 60px;
+        border-radius: 25px;
+        padding: 3.75px;
+    }
+    
+     .xazi2 {
+        width: 60px;
+        border-radius: 25px;
+        padding: 3.75px;
+    }
+    
+    .img {
+        height: 1000px;
+        margin-top: 50px;
+    }
+    
+    .img img {
+        height: 1280px;
+    }
+    
+    .logo {
+        width: 222.7px;
+        height: 20.6px;
+        left: 843.75px;
+        top: 55px;
+    }
+    
+    .logreg {
+        border: 2.5px solid #ffffff;
+        border-radius: 60px;
+        padding-block: 6.25px;
+        top: 40px;
+        right: 140px;
+    }
+    
+    .logreg a {
+        padding-inline: 25px;
+        padding-block: 12.5px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .headtext {
+        width: 1227.5px;
+        height: 192.5px;
+        top: 186.25px;
+        right: 312.5px;
+    }
+    
+    .headtext h1 {
+        font-size: 80px;
+    }
+    
+    .form {
+        width: 1520px;
+        height: 181.25px;
+        top: 950px;
+        right: 175px;
+        border-radius: 16px;
+        padding: 37.5px 30px;
+    }
+    
+    .formin {
+        width: 1460px;
+        height: 106.25px;
+    }
+    
+    .formin form {
+        width: 1218.75px;
+        height: 106.25px;
+    }
+    
+    .loc input{
+        width: 354.375px;
+        height: 70px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .loc input::placeholder {
+        padding-inline: 25px;
+        font-size: 18.75px;
+    }
+    
+    .date input{
+        width: 225px;
+        height: 70px;
+        left: 375px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+        font-size: 18.75px;
+        padding-inline: 25px;
+    }
+    
+    .date label {
+        left: 375px;
+    }
+    
+    .locoff input{
+        width: 354.375px;
+        height: 70px;
+        left: 625px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .locoff input::placeholder {
+        padding-inline: 25px;
+        font-size: 18.75px;
+    }
+    
+    .locoff label {
+        left: 625px;
+    }
+    
+    .dateoff input{
+        width: 225px;
+        height: 70px;
+        left: 1000px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+        font-size: 18.75px;
+        padding-inline: 25px;
+    }
+    
+    .dateoff label {
+        left: 1000px;
+    }
+    
+    .find {
+        border-radius: 80px;
+        padding: 22.5px 0;
+    }
+    
+    .find a {
+        padding-inline: 25px;
+        padding-block: 25px;
+        padding-left: 30px;
+    }
+    
+    .fa-arrow-right {
+        margin-left: 22.5px;
+    }
+    
+    
+    .rentby {
+        top: 1256.25px;
+        left: 206.25px;
+        font-size: 30px;
+    }
+    
+    .viewall a {
+        top: 1256.25px;
+        right: 175px;
+        font-size: 30px;
+    }
+    
+    
+    
+    
+    .grid-conteiner-brend {
+        gap: 25px;
+        top: 1325px;
+        left: 206.25px;
+        width: 1525px;
+        grid-template-columns: 232.5px 232.5px 232.5px 232.5px 232.5px 232.5px;
+    }
+    
+    .grid-item-brend {
+        width: 232.5px;
+        height: 150px;
+    }
+    
+    .grid-item-brend p {
+        margin-top: 15px;
+    }
+    
+    .grid-item-brend img {
+        margin-top: 30px;
+    }
+    
+    
+    
+    .rentbyb {
+        top: 1725px;
+        left: 206.25px;
+        font-size: 30px;
+    }
+    
+    .viewall2 a {
+        top: 1725px;
+        right: 175px;
+        font-size: 30px;
+    }
+    
+    
+    .grid-conteiner-model {
+        gap: 25px;
+        top: 1787.5px;
+        left: 206.25px;
+        width: 1525px;
+        grid-template-columns: 232.5px 232.5px 232.5px 232.5px 232.5px 232.5px;
+    }
+    
+    .grid-item-model {
+        width: 232.5px;
+        height: 150px;
+        top: 1787.5px;
+        left: 206.25px;
+    }
+    
+    .grid-item-model p {
+        margin-top: 15px;
+    }
+    
+    .grid-item-model img {
+        margin-top: 30px;
+    }
+    
+    
+    
+    .cars {
+        height: 2167.5px;
+        top: 2263.75px;
+    }
+    
+    .shesavali {
+        width: 900px;
+        height: 180px;
+        top: 125px;
+        left: 525px;
+    }
+    
+    .shesavali h2 {
+        font-size: 55px;
+    }
+    
+    .shesavali p {
+        font-size: 22.5px;
+        top: 107.5px;
+    }
+    
+    
+    
+    .carclass {
+        top: 365px;
+        left: 500px;
+        width: 955px;
+    }
+    
+    .pop {
+        width: 175px;
+        padding: 15px 33.125px;
+        border-radius: 72.5px;
+    }
+    
+    .pop a {
+        font-size: 20px;
+    }
+    
+    .lux {
+        width: 175px;
+        padding: 15px 33.125px;
+        border-radius: 72.5px;
+    }
+    
+    .lux a {
+        font-size: 20px;
+    }
+    
+    .vint {
+        width: 175px;
+        padding: 15px 33.125px;
+        border-radius: 72.5px;
+    }
+    
+    .vint a {
+        font-size: 20px;
+    }
+    
+    .fam {
+        width: 175px;
+        padding: 15px 35px;
+        border-radius: 72.5px;
+    }
+    
+    .fam a {
+        font-size: 20px;
+    }
+    
+    .offroad {
+        width: 175px;
+        padding: 15px 34.375px;
+        border-radius: 72.5px;
+    }
+    
+    .offroad a {
+        font-size: 17px;
+    }
+    
+    
+
+    
+    .a4{
+        width: 480px;
+        height: 672.5px;
+        border-radius: 22.5px;
+        border: 1.5px solid rgba(0, 0, 0, 0.1);
+        top: 507.5px;
+        left: 206.25px;
+    }
+
+    .rent-img {
+        height: 325px;
+    }
+    
+    .model  {
+        top: 365px;
+        left: 30px;
+        font-size: 25px;
+    }
+    
+    .cost {
+        top: 417.5px;
+        left: 30px;
+        font-size: 37.5px;
+    }
+    
+    .costday {
+        top: 440px;
+        left: 143.75px;
+    }
+    
+    .config {
+        width: 420px;
+        height: 78.75px;
+        border-radius: 20px;
+        top: 485px;
+        left: 30px;
+    }
+    
+    .inconfig {
+        width: 380px;
+        height: 58.75px;
+        top: 10px;
+        left: 20px;
+    }
+    
+    .odomet {
+        width: 70px;
+        height: 58.75px;
+    }
+    
+    .odomet p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 15px;
+    }
+    
+    .odomet img {
+        left: 23.75px;
+    }
+    
+    .gearbox {
+        width: 70px;
+        height: 58.75px;
+        left: 100px;
+    }
+    
+    .gearbox p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 17.5px;
+    }
+    
+    .gearbox img {
+        left: 23.75px;
+    }
+    
+    .person {
+        width: 70px;
+        height: 58.75px;
+        left: 206.25px;
+    }
+    
+    .person p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 5px;
+    }
+    
+    .person img {
+        left: 23.75px;
+    }
+    
+    .gas {
+        width: 70px;
+        height: 58.75px;
+    }
+    
+    .gas p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 20px;
+    }
+    
+    .gas img {
+        left: 23.75px;
+    }
+    
+    .rentnow {
+        top: 588.75px;
+        left: 30px;
+        width: 420px;
+        height: 53.75px;
+        border-radius: 40px;
+        border: 2.5px solid #000000;
+        padding-top: 11.25px;
+    }
+    
+    .rentnow a {
+        padding: 16.25px 162.5px;
+    }
+    
+    .escape {
+        width: 480px;
+        height: 672.5px;
+        border-radius: 22.5px;
+        top: 507.5px;
+        left: 742.5px;
+        border: 1.5px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .porsche {
+        width: 480px;
+        height: 672.5px;
+        border-radius: 22.5px;
+        top: 507.5px;
+        left: 1275px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .m4comp {
+        width: 480px;
+        height: 672.5px;
+        border-radius: 22.5px;
+        top: 1228.75px;
+        left: 206.25px;
+        border: 1.5px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .m4comp img {
+        top: 8.75px;
+        left: 8.75px;
+    }
+    
+    .m4 {
+        width: 480px;
+        height: 672.5px;
+        border-radius: 22.5px;
+        top: 1228.75px;
+        left: 742.5px;
+    }
+    
+    .mclaren {
+        width: 480px;
+        height: 672.5px;
+        border-radius: 22.5px;
+        top: 1228.75px;
+        left: 1275px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .configmc {
+        width: 420px;
+        height: 78.75px;
+        border-radius: 20px;
+        top: 485px;
+        left: 30px;
+    }
+    
+    .inconfigmc {
+        width: 380px;
+        height: 58.75px;
+        top: 10px;
+        left: 20px;
+    }
+    
+    .odometmc {
+        width: 70px;
+        height: 58.75px;
+    }
+    
+    .odometmc p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 15px;
+    }
+    
+    .odometmc img {
+        margin-left: 12.5px;
+        margin-top: -8.75px;
+    }
+    
+    
+    .gearboxmc {
+        width: 70px;
+        height: 58.75px;
+        left: 100px;
+    }
+    
+    .gearboxmc p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 17.5px;
+    }
+    
+    .gearboxmc img {
+        margin-left: 12.5px;
+        margin-top: -8.75px;
+    }
+    
+    .personmc {
+        width: 70px;
+        height: 58.75px;
+        left: 206.25px;
+    }
+    
+    .personmc p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 5px;
+    }
+    
+    .personmc img {
+        margin-left: 12.5px;
+        margin-top: -8.75px;
+    }
+    
+    .gasmc {
+        width: 70px;
+        height: 58.75px;
+        right: 0;
+    }
+    
+    .gasmc p {
+        font-size: 17.5px;
+        top: 32.5px;
+        left: 20px;
+    }
+    
+    .gasmc img {
+        margin-left: 12.5px;
+        margin-top: -8.75px;
+    }
+    
+    .seeallcars {
+        top: 2000px;
+        left: 868.75px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 80px;
+    }
+    
+    .seeallcars a {
+        padding-left: 50px;
+        padding-right: 87.5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /*! aqviyavi !*/
+    
+    
+    .howitworks {
+        width: 1520px;
+        height: 1047.5px;
+        left: 212.5px;
+        top: 4581.25px;
+    }
+    
+    .texthow {
+        width: 900px;
+        height: 180px;
+        left: 337.5px;
+    }
+    
+    .texthow h2 {
+        font-size: 60px;
+    }
+    
+    .texthow p {
+        bottom: 12.5px;
+        font-size: 22.5px;
+    }
+    
+    .howimg {
+        width: 937.5px;
+        height: 797.5px;
+        top: 312.5px;
+        border-radius: 30px;
+    }
+    
+    .howimg img {
+        top: 158.75px;
+        right: 55px;
+    }
+    
+    .browse {
+        width: 740px;
+        height: 212.5px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        top: 375px;
+    }
+    
+    .browse h2 {
+        font-size: 30px;
+        top: 40px;
+        left: 132.5px;
+    }
+    
+    .browse p {
+        font-size: 22.5px;
+        top: 100px;
+        left: 132.5px;
+    }
+    
+    .browsesel {
+        width: 67.5px;
+        height: 132.5px;
+        top: 40px;
+        left: 40px;
+        border-radius: 20px;
+    }
+    
+    .browsesel img {
+        top: 51.25px;
+        left: 18.75px;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .book {
+        width: 740px;
+        height: 212.5px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        top: 607.5px;
+    }
+    
+    .book h2 {
+        font-size: 30px;
+        top: 40px;
+        left: 132.5px;
+    }
+    
+    .book p {
+        font-size: 22.5px;
+        top: 100px;
+        left: 132.5px;
+    }
+    
+    .bookconf {
+        width: 67.5px;
+        height: 132.5px;
+        top: 40px;
+        left: 40px;
+        border-radius: 20px;
+    }
+    
+    .bookconf img {
+        top: 51.25px;
+        left: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .enjoy {
+        width: 740px;
+        height: 212.5px;
+        border: 1.25px solid rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        top: 840px;
+    }
+    
+    .enjoy h2 {
+        font-size: 30px;
+        top: 40px;
+        left: 132.5px;
+    }
+    
+    .enjoy p {
+        font-size: 22.5px;
+        top: 100px;
+        left: 132.5px;
+    }
+    
+    .enjoyride {
+        width: 67.5px;
+        height: 132.5px;
+        top: 40px;
+        left: 40px;
+        border-radius: 20px;
+    }
+    
+    .enjoyride img {
+        top: 51.25px;
+        height: 30px;
+        width: 30px;
+        left: 18.75px;
+    }
+
+    
+    .service {
+        height: 732.5px;
+        top: 5825px;
+    }
+    
+    .servicetext {
+        width: 900px;
+        height: 180px;
+        left: 525px;
+        top: 125px;
+    }
+    
+    .servicetext h2 {
+        font-size: 60px;
+    }
+    
+    .servicetext p {
+        font-size: 22.5px;
+        bottom: 12.5px;
+    }
+    
+    
+    .container {
+        width: 1600px;
+        height: 222.5px;
+        left: 100px;
+        top: 385px;
+    }
+    
+    .quality {
+        width: 480px;
+        height: 222.5px;
+    }
+    
+    .starimg { 
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        border: 10px solid rgba(255, 255, 255, 0.9);
+        left: 210px;
+    }
+    
+    .starimg img {
+        top: 5px;
+        left: 6.25px;
+    }
+    
+    .startext {
+        width: 480px;
+        height: 137.5px;
+    }
+    
+    .startext h2 {
+        font-size: 25px;
+    }
+    
+    .startext p {
+        bottom: 12.5px;
+    }
+    
+    .price {
+        left: 562.5px;
+        width: 480px;
+        height: 222.5px;
+    }
+    
+    .priceimg { 
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        border: 10px solid rgba(255, 255, 255, 0.9);
+        left: 210px;
+    }
+    
+    .priceimg img {
+        top: 5px;
+        left: 6.25px;
+    }
+    
+    .pricetext {
+        width: 480px;
+        height: 137.5px;
+    }
+    
+    .pricetext h2 {
+        font-size: 25px;
+    }
+    
+    .pricetext p {
+        bottom: 12.5px;
+    }
+    
+    
+    .booking {
+        width: 480px;
+        height: 222.5px;
+    }
+    
+    .bookingimg { 
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        border: 10px solid rgba(255, 255, 255, 0.9);
+        left: 210px;
+    }
+    
+    .bookingimg img {
+        top: 5px;
+        left: 6.25px;
+    }
+    
+    .bookingtext {
+        position: absolute;
+        width: 480px;
+        height: 137.5px;
+    }
+    
+    .bookingtext h2 {
+        font-size: 25px;
+    }
+    
+    .bookingtext p {
+        bottom: 12.5px;
+    }
+    
+    .costumer {
+        top: 6636.25px;
+        left: 150px;
+        font-size: 50px;
+    }
+    
+    .costumtext {
+        top: 6791.25px;
+        left: 150px;
+        font-size: 40px;
+    }
+    
+    .costumname {
+        top: 7171.25px;
+        left: 150px;
+        width: 348.75px;
+        height: 100px;
+    }
+    
+    .cosimg {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .costumname h2 {
+        top: 12.5px;
+        font-size: 30px;
+    }
+    
+    .costumname p  {
+        right: 85px;
+        font-size: 25px;
+    }
+    
+    .download {
+        height: 365px;
+        top: 7421.25px;
+    }
+    
+    .dowtext {
+        width: 610px;
+        height: 148.75px;
+        left: 270px;
+        top: 106.25px;
+    }
+    
+    .dowtext h2 {
+        font-size: 35px;
+        top: 12.5px;
+    }
+    
+    .dowtext p {
+        bottom: 12.5px;
+    }
+    
+    .dowbutton {
+        width: 522.5px;
+        height: 76.25px;
+        top: 156.25px;
+        left: 1025px;
+    }
+    
+    
+    
+    footer {
+        top: 7786.25px;
+        height: 141.25px;
+    }
+    
+    footer img {
+        left: 206.25px;
+        top: 53.75px;
+    }
+    
+    .footnav {
+        width: 368.75px;
+        top: 55px;
+        left: 775px;
+    }
+    
+    .footnav a {
+        font-size: 17.5px;
+    }
+    
+    .social {
+        top: 56.25px;
+        right: 206.25px;
+        width: 180px;
+        height: 30px;
+    }
+    
+    .inst {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .inst img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .soc {
+        left: 66.25px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .soc img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .twitter {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .twitter img {
+        width: 30px;
+        height: 30px;
+        left: 137.5px;
+    }
+    
+    .youtube img {
+        width: 30px;
+        height: 30px;
+    }
+
 }
