@@ -52,6 +52,10 @@ header {
     padding: 3px;
 }
 
+.xazi {
+    transition: all .3s;
+}
+
 .bar:hover .xazi {
     background-color: #ffffff9e;
 }
@@ -155,6 +159,7 @@ header {
     font-family: sans-serif;
     color: #ffffff;
     cursor: pointer;
+    transition: .3s;
 }
 
 .btnLogin-popup:hover {
@@ -383,12 +388,11 @@ body {
     border: none;
     border-radius: 16px;
     padding: 30px 24px;
-    transition: 1s;
+    transition: all .3s linear;
 }
 
 .form:hover {
     box-shadow: 0px 0px 100px 1px;
-    transition: 0.4s;
 }
 
 .formin {
@@ -420,12 +424,15 @@ body {
     border-radius: 8px;
     bottom: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-inline: 20px;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 15px;
 }
 
 .loc input::placeholder {
     font-family: sans-serif;
     color: #000000;
-    padding-inline: 20px;
     font-size: 15px;
 }
 
@@ -460,12 +467,15 @@ body {
     bottom: 0;
     left: 500px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-inline: 20px;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 15px;
 }
 
 .locoff input::placeholder {
     font-family: sans-serif;
     color: #000000;
-    padding-inline: 20px;
     font-size: 15px;
 }
 
@@ -505,12 +515,11 @@ body {
     bottom: 0;
     right: 0;
     padding: 18px 0;
-    transition: 0.5s;
+    transition: all 0.3s;
 }
 
 .find:hover {
     background-color: #373737;
-    transition: 0.5s;
 }
 
 .find a {
@@ -564,13 +573,12 @@ body {
     height: 120px;
     background-color: rgba(15, 15, 15, 0.1);
     text-align: center;
-    transition: 0.5s;
+    transition: all .5s;
     cursor: pointer;
 }
 
 .grid-item-brend:hover {
     background-color: rgba(15, 15, 15, 0.2);
-    transition: 0.5s;
 }
 
 .grid-item-brend p {
@@ -622,6 +630,12 @@ body {
     top: 1430px;
     left: 165px;
     text-align: center;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.grid-item-model:hover {
+    background-color: rgba(15, 15, 15, 0.2);
 }
 
 .grid-item-model p {
@@ -1240,9 +1254,17 @@ body {
     width: 592px;
     height: 170px;
     background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 24px;
     top: 300px;
+    transition: all .2s linear;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    outline: 1.6px solid rgba(0, 0, 0, .1);
+    outline-offset: -10px;
+}
+
+.browse:hover {
+    outline: 3px solid #616161;
+    outline-offset: 0;
 }
 
 .browse h2 {
@@ -1285,7 +1307,17 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 24px;
     top: 486px;
+    transition: all .2s linear;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    outline: 1.6px solid rgba(0, 0, 0, .1);
+    outline-offset: -10px;
 }
+
+.book:hover {
+    outline: 3px solid #616161;
+    outline-offset: 0;
+}
+
 
 .book h2 {
     position: absolute;
@@ -1327,7 +1359,17 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 24px;
     top: 672px;
+    transition: all .2s linear;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    outline: 1.6px solid rgba(0, 0, 0, .1);
+    outline-offset: -10px;
 }
+
+.enjoy:hover {
+    outline: 3px solid #616161;
+    outline-offset: 0;
+}
+
 
 .enjoy h2 {
     position: absolute;
@@ -1621,6 +1663,15 @@ body {
     left: 820px;
 }
 
+.dowbutton img {
+    object-fit: cover;
+    transition: all .3s;
+}
+
+.dowbutton img:hover {
+    transform: scale(0.9);
+}
+
 .apple {
     position: absolute;
     left: 0;
@@ -1668,6 +1719,11 @@ footer img {
     color: #d9dbe1;
     font-family: sans-serif;
     font-size: 14px;
+    transition: all .3s;
+}
+
+.footnav a:hover {
+    color: #ffffff;
 }
 
 .social {
