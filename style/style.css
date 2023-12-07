@@ -839,7 +839,7 @@ body {
 }
 
 .inconfig {
-    position: absolute;
+    position: relative;
     width: 304px;
     height: 47px;
     top: 8px;
@@ -897,14 +897,14 @@ body {
 .person p {
     position: absolute;
     font-size: 14px;
-    top: 26px;
-    left: 4px;
+    /* top: 26px; */
+    bottom: 2px;
+    text-align: center;
 }
 
 .person img {
-    position: absolute;
-    top: 0;
-    left: 19px;
+    margin-left: 12px;
+    margin-top: -5px;
 }
 
 .gas {
