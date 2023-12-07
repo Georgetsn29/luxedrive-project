@@ -829,7 +829,7 @@ body {
 }
 
 .config {
-    position: absolute;
+    position: relative;
     width: 336px;
     height: 63px;
     border-radius: 16px;
@@ -839,7 +839,7 @@ body {
 }
 
 .inconfig {
-    position: relative;
+    position: absolute;
     width: 304px;
     height: 47px;
     top: 8px;
@@ -889,7 +889,7 @@ body {
 
 .person {
     position: absolute;
-    width: 56px;
+    width: 70px;
     height: 47px;
     left: 165px;
 }
@@ -2058,7 +2058,6 @@ footer img {
     
     
 
-    
     .a4{
         width: 480px;
         height: 672.5px;
